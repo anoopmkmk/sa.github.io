@@ -164,10 +164,77 @@ pre{
 }
 .content-menu ul li:hover,
 .content-menu ul li.active{
-    background-color:#DCDEE9;
+    /* background-color:#DCDEE9; */
 }
-.content-menu ul li:hover a,
-.content-menu ul li.active a{
+.content-menu > ul > li  {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.content-menu ul li > ul{
+    /* background-color: #ccc; */
+}
+
+.content-menu {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.content-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.content-menu li {
+    margin: 5px 0;
+}
+.accordion-header {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+}
+.accordion-content {
+    display: none;
+    padding-left: 10px;
+}
+.active .accordion-content {
+    display: block;
+}
+.accordion-header{
+    padding: 12px 13.25%;
+    color: #777A7A;
+    letter-spacing: 0.025em;
+    line-height: 1.4;
+    display: block;
+    text-transform: capitalize;
+    border: none;
+    font-weight: 400;
+}
+li.accordion.active .accordion-header{
+    color: #00a8e3;
+}
+.content-menu ul li > ol{
+    padding-left: 55px;
+}
+.content-menu ol li{
+    list-style-type: initial;
+}
+.content-menu ol li a {
+    padding-left: 0 !important;
+}
+.content-menu ul li > ol ol{
+    padding-left: 10px !important;
+}
+.content-menu ul li > ul {
+    padding-left: 10px;
+}
+
+
+.content-menu ul li a{
+    text-decoration: none;
+}
+.content-menu ul li:hover > a,
+.content-menu ul li.active > a{
     color: #00a8e3;
 }
 @media (hover: none) {
