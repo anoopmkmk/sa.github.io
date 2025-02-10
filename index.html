@@ -44,11 +44,11 @@
         </div>
         <ul>
             <li class="accordion">
-                <div class="accordion-header">Overview</div>
+                <div class="accordion-header">Get Started</div>
                 <ul class="accordion-content">
-                    <li class="scroll-to-link active"data-target="listTxnData"><a>List transaction data using API</a></li>
+                    <li class="scroll-to-link active" data-target="listTxnData"><a>List transaction data using API</a></li>
                     <li class="scroll-to-link" data-target="authScheme" ><a>Authentication scheme</a></li>
-                    <li class="scroll-to-link" data-target="requestResponse"><a>Request / response scheme</a></li>
+                    <li class="scroll-to-link" data-target="requestResponse"><a>Request/Response scheme</a></li>
                     <li class="scroll-to-link" data-target="readAccess"><a> Read access (Currently we are providing read access only)</a></li>
 
                 </ul>
@@ -56,388 +56,496 @@
             <li class="accordion">
                 <div class="accordion-header">Authentication</div>
                 <ul class="accordion-content">
-                    <li><a href="#">Description</a></li>
-                    <li><a href="#">Image</a>
-                        <ol>
-                            <li><a href="#">Client Registration</a></li>
-                            <li><a href="#">Obtaining access token</a>
-                                <ol>
-                                    <li><a href="#">Description</a></li>
-                                    <li><a href="#">Obtaining authorization code</a>
-                                        <ol>
-                                            <li><a href="#">Description</a></li>
-                                            <li><a href="#">Request Url format</a></li>
-                                            <li><a href="#">Table of parameters</a>
-                                                <ol>
-                                                    <li><a href="#">Name</a></li>
-                                                    <li><a href="#">Type</a></li>
-                                                    <li><a href="#">Description</a></li>
-                                                </ol>
-                                            
-                                        </ol>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li><a href="#">Obtaining Access token / Refresh token</a>
-                                <ol>
-                                    <li><a href="#">Description</a></li>
-                                    <li><a href="#">Request Url format</a>
-                                        <ol>
-                                            <li><a href="#">Format Of Url</a></li>
-                                        </ol>
-                                    </li>
-                                    <li><a href="#">Header format</a>
-                                        <ol>
-                                            <li><a href="#">Format example</a></li>
-                                            <li><a href="#">Resulting header</a></li>
-                                            <li><a href="#">Response</a>
-                                                <ol>
-                                                    <li><a href="#">Simple Response Format</a></li>
-                                                </ol>
-                                            </li>
-                                            <li><a href="#">Status</a></li>
-                                        </ol>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li><a href="#">Refreshing Access  token after expiration</a>
-                                <ol>
-                                    <li><a href="#">Description</a></li>
-                                    <li><a href="#">Request Url format</a>
-                                        <ol>
-                                            <li><a href="#">Format Of Url</a></li>
-                                        </ol>
-                                    </li>
-                                    <li><a href="#">Header format</a>
-                                        <ol>
-                                            <li><a href="#">Format example</a></li>
-                                            <li><a href="#">Resulting header</a></li>
-                                            <li><a href="#">Response</a>
-                                                <ol>
-                                                    <li><a href="#">Simple Response Format</a></li>
-                                                </ol>
-                                            </li>
-                                            <li><a href="#">Status</a></li>
-                                        </li>
-                                        </ol>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ol>
-                    </li>
+                    <li class="scroll-to-link active" data-target="clientReg"><a>Client Registration</a></li>
+                    <li class="scroll-to-link active" data-target="codeGenerate"><a>Generate Authorization Code</a></li>
+                    <li class="scroll-to-link" data-target="accessToken"><a>Obtaining Access token</a></li>
+                    <li class="scroll-to-link" data-target="refreshToken"><a>Obtaining Refresh Token</a></li>
+                    <li class="scroll-to-link" data-target="refreshTokenRefresh"><a>Refreshing Access  token after expiration</a></li>
                 </ul>
             </li>
             <li class="accordion">
                 <div class="accordion-header">EndPoint</div>
                 <ul class="accordion-content">
-                    <li><a href="#">All the API’s listed below are available under the common path </a>
-                        <ol>
-                            <li><a href="#">https://api-staging.sweetassist.com/v1/public</a></li>
-                        </ol>
-                    </li>
-                    <li><a href="#">Content Type </a>
-                        <ol>
-                            <li><a href="#">Json (Need more description)</a></li>
-                        </ol>
-                    </li>
-                    <li><a href="#">Authorization Header</a>
-                        <ol>
-                            <li><a href="#">Bearer (Need more description)</a></li>
-                        </ol>
-                    </li>
+                    <li class="scroll-to-link active" data-target="contentType"><a>Content Type </a></li>
+                    <li class="scroll-to-link" data-target="authHead"><a>Authorization Header</a></li>
                 </ul>
             </li>
             <li class="accordion">
                 <div class="accordion-header">Fetch data using API</div>
                 <ul class="accordion-content">
-                    <li><a href="#">List all transactions </a>
-                        <ol>
-                            <li><a href="#">transactions/list?response_type=data</a></li>
-                            <li><a href="#">Method => GET</a></li>
-
-                            <li><a href="#">Parameters (Draw table)</a>
-                                <ol>
-                                    <li><a href="#">Name</a></li>
-                                    <li><a href="#">Type</a></li>
-                                    <li><a href="#">Description</a></li>
-
-
-                                </ol>
-                            </li>
-                            <li><a href="#">Example code </a></li>
-                            <li><a href="#">Response data example </a></li>
-                        </ol>
-                    </li>
-                    <li><a href="#">Get single transaction details</a>
-                        <ol>
-                            <li><a href="#">transactions/list?response_type=data</a></li>
-                            <li><a href="#">Method => GET</a></li>
-
-                            <li><a href="#">Parameters (Draw table)</a>
-                                <ol>
-                                    <li><a href="#">Name</a></li>
-                                    <li><a href="#">Type</a></li>
-                                    <li><a href="#">Description</a></li>
-
-
-                                </ol>
-                            </li>
-                            <li><a href="#">Example code </a></li>
-                            <li><a href="#">Response data example </a></li>
-                        </ol>
-                    </li>
+                    <li class="scroll-to-link active" data-target="listAllTxn"><a>List all transactions </a></li>
+                    <li class="scroll-to-link" data-target="listSingleTxn"><a>Get single transaction details </a></li>
                 </ul>
             </li>
         </ul>
     </div>
  </div>
  <div class="content-page">
-     <div class="content-code"></div>
-     <div class="content">
-         <div class="overflow-hidden content-section" id="content-get-started">
-             <h1>Get started</h1>
-             <pre>
-                API Endpoint https://api.westeros.com/
-                 </pre>
-             <p>
-                 The Westeros API provides programmatic access to read Game of Thrones data. Retrieve a character, provide an oauth connexion, retrieve a familly, filter them, etc.
-             </p>
-             <p>
-                 To use this API, you need an <strong>API key</strong>. Please contact us at <a href="mailto:anoopmkb@gmail.com">anoopmkb@gmail.com</a> to get your own API key.
-             </p>
-         </div>
-         <div class="overflow-hidden content-section" id="listTxnData">
-            <h1>List transaction data using API</h1>
-            <pre>
-               API Endpoint https://api.westeros.com/
-                </pre>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>
-                To use this API, you need an <strong>API key</strong>. Please contact us at <a href="mailto:anoopmkb@gmail.com">anoopmkb@gmail.com</a> to get your own API key.
-            </p>
-        </div>
-        <div class="overflow-hidden content-section" id="authScheme">
-            <h1>Authentication  Scheme</h1>
-            <pre>
-               API Endpoint https://api.westeros.com/
-                </pre>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>
-                To use this API, you need an <strong>API key</strong>. Please contact us at <a href="mailto:anoopmkb@gmail.com">anoopmkb@gmail.com</a> to get your own API key.
-            </p>
-        </div>
-        <div class="overflow-hidden content-section" id="requestResponse">
-            <h1>Authentication  Scheme</h1>
-            <pre>
-               API Endpoint https://api.westeros.com/
-                </pre>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>
-                To use this API, you need an <strong>API key</strong>. Please contact us at <a href="mailto:anoopmkb@gmail.com">anoopmkb@gmail.com</a> to get your own API key.
-            </p>
-        </div>
-        <div class="overflow-hidden content-section" id="readAccess">
-            <h1>Authentication  Scheme</h1>
-            <pre>
-               API Endpoint https://api.westeros.com/
-                </pre>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>
-                To use this API, you need an <strong>API key</strong>. Please contact us at <a href="mailto:anoopmkb@gmail.com">anoopmkb@gmail.com</a> to get your own API key.
-            </p>
-        </div>
-        <div class="overflow-hidden content-section" id="content-get-characters">
-             <h2>get characters</h2>
-             <pre><code class="bash">
-                # Here is a curl example
-                curl \
-                -X POST http://api.westeros.com/character/get \
-                -F 'secret_key=your_api_key' \
-                -F 'house=Stark,Bolton' \
-                -F 'offset=0' \
-                -F 'limit=50'
-                 </code>
-            </pre>
-             <p>
-                 To get characters you need to make a POST call to the following url :<br>
-                 <code class="higlighted break-word">http://api.westeros.com/character/get</code>
-             </p>
-             <br>
-             <pre><code class="json">
-                Result example :
-                
-                {
-                query:{
-                    offset: 0,
-                    limit: 50,
-                    house: [
-                    "Stark",
-                    "Bolton"
-                    ],
-                }
-                result: [
-                    {
-                    id: 1,
-                    first_name: "Jon",
-                    last_name: "Snow",
-                    alive: true,
-                    house: "Stark",
-                    gender: "m",
-                    age: 14,
-                    location: "Winterfell"
-                    },
-                    {
-                    id: 2,
-                    first_name: "Eddard",
-                    last_name: "Stark",
-                    alive: false,
-                    house: "Stark",
-                    gender: "m",
-                    age: 35,
-                    location: 'Winterfell'
-                    },
-                    {
-                    id: 3,
-                    first_name: "Catelyn",
-                    last_name: "Stark",
-                    alive: false,
-                    house: "Stark",
-                    gender: "f",
-                    age: 33,
-                    location: "Winterfell"
-                    },
-                    {
-                    id: 4,
-                    first_name: "Roose",
-                    last_name: "Bolton",
-                    alive: false,
-                    house: "Bolton",
-                    gender: "m",
-                    age: 40,
-                    location: "Dreadfort"
-                    },
-                    {
-                    id: 5,
-                    first_name: "Ramsay",
-                    last_name: "Snow",
-                    alive: false,
-                    house: "Bolton",
-                    gender: "m",
-                    age: 15,
-                    location: "Dreadfort"
-                    },
-                ]
-                }
-                 </code></pre>
-             <h4>QUERY PARAMETERS</h4>
-             <table class="central-overflow-x">
-                 <thead>
-                 <tr>
-                     <th>Field</th>
-                     <th>Type</th>
-                     <th>Description</th>
-                 </tr>
-                 </thead>
-                 <tbody>
-                 <tr>
-                     <td>secret_key</td>
-                     <td>String</td>
-                     <td>Your API key.</td>
-                 </tr>
-                 <tr>
-                     <td>search</td>
-                     <td>String</td>
-                     <td>(optional) A search word to find character by name.</td>
-                 </tr>
-                 <tr>
-                     <td>house</td>
-                     <td>String</td>
-                     <td>
-                         (optional) a string array of houses:
-                     </td>
-                 </tr>
-                 <tr>
-                     <td>alive</td>
-                     <td>Boolean</td>
-                     <td>
-                         (optional) a boolean to filter alived characters
-                     </td>
-                 </tr>
-                 <tr>
-                     <td>gender</td>
-                     <td>String</td>
-                     <td>
-                         (optional) a string to filter character by gender:<br>
-                         m: male<br>
-                         f: female
-                     </td>
-                 </tr>
-                 <tr>
-                     <td>offset</td>
-                     <td>Integer</td>
-                     <td>(optional - default: 0) A cursor for use in pagination. Pagination starts offset the specified offset.</td>
-                 </tr>
-                 <tr>
-                     <td>limit</td>
-                     <td>Integer</td>
-                     <td>(optional - default: 10) A limit on the number of objects to be returned, between 1 and 100.</td>
-                 </tr>
-                 </tbody>
-             </table>
-         </div>
-         <div class="overflow-hidden content-section" id="content-errors">
-             <h2>Errors</h2>
-             <p>
-                 The Westeros API uses the following error codes:
-             </p>
-             <table>
-                 <thead>
-                 <tr>
-                     <th>Error Code</th>
-                     <th>Meaning</th>
-                 </tr>
-                 </thead>
-                 <tbody>
-                 <tr>
-                     <td>X000</td>
-                     <td>
-                         Some parameters are missing. This error appears when you don't pass every mandatory parameters.
-                     </td>
-                 </tr>
-                 <tr>
-                     <td>X001</td>
-                     <td>
-                         Unknown or unvalid <code class="higlighted">secret_key</code>. This error appears if you use an unknow API key or if your API key expired.
-                     </td>
-                 </tr>
-                 <tr>
-                     <td>X002</td>
-                     <td>
-                         Unvalid <code class="higlighted">secret_key</code> for this domain. This error appears if you use an  API key non specified for your domain. Developper or Universal API keys doesn't have domain checker.
-                     </td>
-                 </tr>
-                 <tr>
-                     <td>X003</td>
-                     <td>
-                         Unknown or unvalid user <code class="higlighted">token</code>. This error appears if you use an unknow user <code class="higlighted">token</code> or if the user <code class="higlighted">token</code> expired.
-                     </td>
-                 </tr>
-                 </tbody>
-             </table>
-         </div>
+     <div class="content-code">
+        
      </div>
+     <div class="content">
+         
+             <h1 id="content-get-started">Get started</h1>
+             <pre>
+                <p style="font:bold; font-size: 16px;">API Endpoint https://api-staging.sweetassist.com/v1/public/</p>
+            </pre>
+            <pre>
+            <code class="bash">
+            # List all transactions request example
+            GET https://api-staging.sweetassist.com/v1/public/transaction
+            ?response_type=data
+            &batch_size=10
+            &batch_number=1
+            </code>
+            <code>
+            # List all transactions response example
+            {
+                "status": true,
+                "data": {
+                    "user": {
+                        "id": 10090,
+                        "name": "Txn Test"
+                    },
+                    "transaction": [
+                        {
+                            "id": 16164,
+                            "title": "Temescal Canyon Trail, Los Angeles, CA, 90272, US",
+                            "phase": "Active",
+                            "created_at": "2025-02-07",
+                            "upated_at": "2025-02-07"
+                        },
+                        {
+                            "id": 16165,
+                            "title": "Tramway Road, Palm Springs, CA, US",
+                            "phase": "Active",
+                            "created_at": "2025-02-07",
+                            "upated_at": "2025-02-07"
+                        }
+                    ]
+                },
+                "message": "Data fetched successfully!"
+            }
+            </code>
+            <hr>
+            <code class="bash">
+            # List single transactions details request example
+            GET https://api-staging.sweetassist.com/v1/public/transaction/detail
+            ?response_type=data
+            &transaction_id={{transaction_id}}
+            </code>
+            <code>
+            # List single transactions details resonse example
+            {
+                "status": true,
+                "data": {
+                    "transaction": [
+                        {
+                            "id": 16164,
+                            "title": "Temescal Canyon Trail, Los Angeles, CA, 90272, US",
+                            "type": "Loading Template",
+                            "phase": "Active",
+                            "created_at": "2025-02-07",
+                            "upated_at": "2025-02-07",
+                            "contacts": {
+                                "clients": [
+                                    {
+                                        "name": "Client  One",
+                                        "email": "clientone@mailinator.com"
+                                    }
+                                ]
+                            },
+                            "Documents": {
+                                "url": []
+                            },
+                            "Details": {
+                                "Sales Price": "214234235",
+                                "Howmuch Earnest Money": "4324",
+                                "Mortage Date": "02/05/2025",
+                                "Acceptance Date": "02/26/2025",
+                                "Inspection Date": "02/05/2025",
+                                "Appraisal Date": "02/20/2025",
+                                "custom fields": {
+                                    "additional_field_1": null,
+                                    "additional_field_2": null,
+                                    "testttttttt": null,
+                                    "new_custom": null,
+                                    "new_custom_2": null,
+                                    "custom_field_3": null,
+                                    "custom_field_4": null
+                                }
+                            },
+                            "Cda": {
+                                "Esc Company": "ESC Company",
+                                "Esc Phone": "343534",
+                                "Settlement Charges": [],
+                                "Total Income": "300.00",
+                                "Total Payout": "300.00",
+                                "Net Pay Due To Agent": "300.00",
+                                "Sales Price": "214234235",
+                                "Sales Commission": "300",
+                                "Commission User": null,
+                                "Net Pay To User": "Txn Test",
+                                "Esc File": "1224234",
+                                "Esc Contact": "Contact Name:",
+                                "Esc Fax": "Contact Name:",
+                                "Esc Email": "Email",
+                                "Esc Corporation": "Corporation Name:",
+                                "Esc Ein": "ein",
+                                "Esc Message": "dsfdf",
+                                "Howmuch Earnest Money": "4324",
+                                "Mortage Date": "02/05/2025",
+                                "Acceptance Date": "02/26/2025",
+                                "Inspection Date": "02/05/2025",
+                                "Commission Type": "2",
+                                "Opposite party commision": [
+                                    {
+                                        "Opp Commission": null
+                                    }
+                                ],
+                                "Commission Flat": "300",
+                                "Commission Percentage": "0",
+                                "disbursement": []
+                            }
+                        }
+                    ]
+                },
+                "message": "Data fetched successfully!"
+            }
+            </code>
+           
+            </pre>  
+           
+             <p>
+                 The Sweet Assist API provides programmatic access to read transaction details including CDA form, Detail page, Documents etc.
+             </p>
+             <p>
+                 To use this API, you need an <strong>API key</strong>. Please contact us at <a href="mailto:dev@sweetassist.com">dev@sweetassist.com</a> to get your own API key.
+             </p>
+         
+         
+            <h3 id="listTxnData">List transaction data using API</h3>
+            
+            <p>
+                Sweet Assist API provides a seamless way to integrate transaction data into your website, allowing businesses to efficiently manage and display financial records. With its secure and user-friendly endpoints, developers can retrieve transaction histories, filter records by date, amount, or status, and display real-time updates. By making authenticated API calls, businesses can ensure secure data transmission while enhancing transparency for users. Whether you're managing e-commerce payments, tracking invoices, or monitoring financial activities, Sweet Assist API simplifies data retrieval and integration, making it a powerful tool for transaction management on modern web platforms.
+            </p>
+            <p>
+                
+            </p>
+        
+       
+            <h3 id="authScheme">Authentication  Scheme</h3>
+            
+            <p>
+                The Sweet Assist API Authentication Schema ensures secure and reliable access to transaction data by implementing robust authentication mechanisms. API key-based authentication, developers can authenticate requests while preventing unauthorized access. Each request requires a valid Bearer Token or API key in the header, ensuring that only authorized users can retrieve or modify transaction records. With built-in token expiration and refresh capabilities, the schema enhances security while maintaining seamless user experiences. By enforcing encrypted communication over HTTPS and supporting role-based access controls, Sweet Assist API authentication provides a scalable and secure foundation for integrating financial data into modern web applications.
+            </p>
+            <p>
+                
+            </p>
+       
+       
+            <h3 id="requestResponse">Request/Response scheme</h3>
+            
+            <p>
+                The Sweet Assist API Request/Response Scheme provides a structured and secure way to interact with transaction data. By utilizing a RESTful architecture, requests are authenticated using API keys, ensuring only authorized access to sensitive financial records. A standard API request includes an authentication token in the header, followed by a well-defined endpoint to fetch transaction details. The API responds with a structured JSON payload, containing transaction IDs, amounts, statuses, timestamps, and customer details. In case of errors, the API returns clear HTTP status codes and messages, enabling efficient error handling. This robust scheme ensures seamless integration, real-time data retrieval, and secure financial operations for modern web applications.
+            </p>
+            <p>
+                
+            </p>
+        
+            <h3 id="readAccess">Read access (Currently we are providing read access only)</h3>
+            
+            <p>
+                The Sweet Assist API currently offers read-only access, allowing users to securely retrieve transaction data without making modifications. This ensures data integrity while providing real-time insights into financial records. Through authenticated API requests, developers can fetch transaction histories, filter data by date, status, or amount, and access detailed customer information. The read access model enhances security by preventing unauthorized changes while enabling seamless integration with dashboards, reporting tools, and financial analytics platforms. By focusing on data retrieval rather than modifications, Sweet Assist API ensures a reliable and transparent way to access essential transaction data for business intelligence and monitoring.
+            </p>
+            <p>
+                
+            </p>
+        
+     </div>
+     
+     <hr>
+
+     <div class="content">
+         <div class="overflow-hidden content-section" id="content-auth">
+             <h1>AUTHENTICATION</h1>
+             
+             <p class="sub_head">
+                 The Sweet Assist API provides programmatic access to read transaction details including CDA form, Detail page, Documents etc.
+             </p>
+        </div>
+        <div class="overflow-hidden content-section" id="clientReg">
+            <h3>Client Registration</h3>
+            
+            <p class="sub_head">
+                To register your application to integrate with this API, please contact  <a href="mailto:dev@sweetassist.com">dev@sweetassist.com</a>. Upon registration, we will issue you a client id and client secret which are prerequisites in order to use the API.
+            </p>
+
+        </div>
+
+        <div class="overflow-hidden content-section" id="codeGenerate">
+            <h3>Generate Authorization Code</h3>
+            <p class="sub_head">
+                To begin, direct the user to the authorization URL in their browser.
+            </p>
+            <h4> Request Example:</h4>
+            <p class="sub_head"> 
+                <p class="sub_head">GET https://api-staging.sweetassist.com/v1/public/oauth/authorize</p>
+                <p>?client_id=YOUR_CLIENT_ID</p>
+                <p>&redirect_uri=YOUR_REDIRECT_URI</p>
+                <p> &response_type=code</p>
+            </p>
+
+            <h4> Parameters:</h4>
+            <p class="sub_head"> 
+                <p>client_id - Your registered API client ID.</p>
+                <p>redirect_uri – The URL where the user will be redirected after authorization.</p>
+                <p>response_type – Specifies that an authorization code should be returned.</p>
+            </p>
+
+            <h4> Response Example:</h4>
+            <p class="sub_head">{</p>
+                <p>"status": true,</p>
+                <p>"code": "wFzb1bhdBvEbBQEvmvyd",</p>
+                <p>"redirect_uri": "https://dev.sweetassist.com/admin/broke",</p>
+                <p>"message": "Success"</p>
+                <p>}</p>
+
+            <h4> User Grants Permission:</h4>
+            <p class="sub_head"> 
+                The user will see a consent screen and approve access.If successful, the API will redirect the user to your provided redirect_uri with the authorization code in the URL.
+            </p>
+            <p class="sub_head">
+                Example Redirected URL: https://yourwebsite.com/callback?code=AUTHORIZATION_CODE
+            </p>
+        </div>
+        <div class="overflow-hidden content-section" id="accessToken">
+            <h3>Obtaining Access token</h3> 
+            <p class="sub_head">
+                To securely interact with the Sweet Assist API, users must first obtain an access token. The access token is required to authenticate API requests and is included in the request headers for secure data retrieval.
+            </p>
+
+            <h4>1.Token Request</h4>
+            <p class="sub_head">
+                Send a POST request to the authentication endpoint with your client credentials.
+            </p>
+            <h4>Request Example</h4>
+            <p class="sub_head">
+                To obtain an access token, send a POST request to the authentication endpoint with your client credentials.
+                <p class="sub_head">POST https://api-staging.sweetassist.com/v1/public/auth/token</p>
+                <p>Content-Type: application/json</p>
+
+                <p>{</p>
+                <p>"code": "code",</p>
+                <p>"redirect_uri": "your_redirect_uri",</p>
+                <p> "grant_type": "authorization_code"</p>
+                <p> "state": "state"</p>
+                <p>}</p>
+            </p>
+
+            <h4>Response Example</h4>
+            <p class="sub_head">
+                <p>Content-Type: application/json</p>
+                <p>{</p> 
+                <p>"status": true,</p> 
+                <p class="sub_head"> "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9....",</p> 
+                <p class="sub_head"> "refresh_token": "3e4348b5b0e5fad60e49f603a4a27....",</p> 
+                <p> "token_type": "Bearer",</p> 
+                <p> "expires_at": "2026-02-07T09:04:23.000000Z",</p> 
+                <p>  "message": "Authentication successful"</p> 
+                <p>}</p> 
+            </p>
+        </div>
+        <div class="overflow-hidden content-section" id="refreshToken">
+            <h3>Obtaining Refresh token</h3> 
+            <p class="sub_head">
+                Once the access token expires, use the refresh token to get a new access token.
+            </p>
+
+                <p class="sub_head">POST https://api-staging.sweetassist.com/v1/public/auth/token</p>
+                
+
+                <h4>1.Token Request</h4>
+                <p class="sub_head">
+                    Send a POST request to the authentication endpoint with your client credentials.
+                </p>
+                <h4>Request Example</h4>
+                <p class="sub_head">
+                    To obtain an refresh token, send a POST request to the authentication endpoint with your client credentials.
+                    <p class="sub_head">POST https://api-staging.sweetassist.com/v1/public/auth/token</p>
+                    <p>Content-Type: application/json</p>
+                    <p>{</p>
+                        <p>"grant_type": "refresh_token",</p>
+                        <p>"client_id": "YOUR_CLIENT_ID",</p>
+                        <p>"client_secret": "YOUR_CLIENT_SECRET",</p>
+                        <p>"refresh_token": "YOUR_REFRESH_TOKEN"</p>
+                    <p>}</p>
+                </p>
+    
+                <h4>Response Example</h4>
+                <p class="sub_head">
+                    <p>Content-Type: application/json</p>
+                    <p>{</p>
+                    <p>"access_token": "NEW_ACCESS_TOKEN_VALUE",</p>
+                    <p>"expires_in": 3600,</p>
+                    <p>"token_type": "Bearer",</p>
+                    <p>"refresh_token": "NEW_REFRESH_TOKEN_VALUE"</p>
+                    <p>}</p>
+                </p>
+        </div>
+        <div class="overflow-hidden content-section" id="refreshTokenRefresh">
+            <h3>Refreshing Access token after expiration</h3>
+            <p class="sub_head">
+                When an access token expires, you can use the refresh token to get a new one without requiring the user to log in again. This process ensures seamless authentication and uninterrupted API access.
+            </p>
+            <h4>1.Best Practices</h4>
+                <p class="sub_head">
+                    <ul>
+                        <li>Store Tokens Securely: Keep the refresh token safe as it allows re-authentication.</li>
+                        <li>Auto Refresh Before Expiration: Use the expires_in field to refresh proactively.</li>
+                        <li>Handle Expired Refresh Tokens Gracefully: If the refresh token is also expired, prompt the user to log in again.</li>
+                    </ul>
+                </p>
+        </div>
+     </div>
+     <hr>
+     <div class="content">
+        <div class="overflow-hidden content-section" id="content-endpoint">
+            <h1>END POINT</h1>
+            
+            <p class="sub_head">
+                The Sweet Assist API provides programmatic access to read transaction details including CDA form, Detail page, Documents etc.
+            </p>
+        </div>
+        <div class="overflow-hidden content-section" id="contentType">
+           <h3>Content Type</h3>
+        <p class="sub_head">
+            The Content-Type header in an API request specifies the format of the data being sent to the server. The Sweet Assist API primarily supports application/json for sending and receiving data securely and efficiently.
+        </p>
+        <h4>1.What is Content-Type?</h4>
+        <p class="sub_head">
+            <ul>
+                <li>The Content-Type header informs the API about the format of the data included in the request body. It ensures the server can correctly interpret and process the request.
+                    For the Sweet Assist API, the supported content type is:.</li>
+                    <ul>
+                        <li>Content-Type: application/json</li>
+                    </ul>
+                <li>This means the API expects requests to be formatted in JSON (JavaScript Object Notation).</li>
+            </ul>
+        </p>
+        <h4>2.When to Use Content-Type: application/json</h4>
+        <p class="sub_head">You should include the Content-Type: application/json header when making API requests that contain a request body, such as:</p>
+        <p>
+            <ul>
+                <li>Authentication & Token Requests (e.g., refreshing an access token).</li>
+                <li>Creating or Updating Data (e.g., adding a new transaction).</li>
+                <li>Filtering or Querying Data (e.g., searching for transactions based on criteria).</li>
+            </ul>
+        </p>
+        <h4>3.Common Errors Related to Content-Type</h4>
+        <p>If the Content-Type is incorrect or missing, you may encounter errors such as:</p>
+        <p>
+            <img src="images/content-type.png">
+            
+        </p>
+       
+        <h4>4.Best Practices for Using Content-Type: application/json</h4>
+        <p>
+            <ul>
+                <li>Always specify Content-Type: application/json when sending JSON data.</li>
+                <li>Validate JSON format before sending the request to avoid syntax errors.</li>
+                <li>Use HTTPS to ensure secure transmission of sensitive data</li>
+                <li>Check API documentation to confirm if additional headers are required</li>
+            </ul>
+        </p>
+       </div>
+       <div class="overflow-hidden content-section" id="authHead">
+           <h3>Authorization header</h3>
+           <p>
+            The Authorization header is a crucial part of API security, ensuring that only authenticated users can access protected endpoints. In the Sweet Assist API, authentication is done using Bearer Tokens, which must be included in every request requiring authentication.
+           </p>
+           <h4>1.Format of the Authorization Header</h4>
+            <p>
+                <ul>
+                    <li>When making API requests, the Authorization header should follow this format:</li>
+                        <p>Authorization: Bearer YOUR_ACCESS_TOKEN</p>
+                    <li>Bearer: This specifies that the token is an OAuth 2.0 Bearer Token.</li>
+                    <li>YOUR_ACCESS_TOKEN: Replace this with the valid access token obtained from the API.</li>
+                </ul>
+            </p>
+            <h4>2.Common Authorization Errors</h4>
+            
+            <p>
+                <img src="images/authorization.png">
+            </p>
+            <h4>4.Best Practices for Using Authorization Header</h4>
+            <p>
+                <ul>
+                    <li>Always include Authorization: Bearer YOUR_ACCESS_TOKEN in authenticated requests.</li>
+                    <li>Store access tokens securely (e.g., environment variables, secure storage).</li>
+                    <li>Refresh tokens proactively to avoid interruptions.</li>
+                    <li>Use HTTPS to secure token transmission.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="content">
+        <div class="overflow-hidden content-section" id="content-fetch-data">
+            <h1>FETCH DATA USING API</h1>
+            <p>
+                The Sweet Assist API provides programmatic access to read transaction details including CDA form, Detail page, Documents etc.
+            </p>
+            
+        </div>
+       <div class="overflow-hidden content-section" id="listAllTxn">
+            <h3>List all transactions</h3>
+            <p>
+                To retrieve all transactions from the Sweet Assist API, you need to make an authenticated GET request to the transactions endpoint.    
+            </p>
+            <h4> Request Example:</h4>
+            <p> 
+                <p class="sub_head">GET https://api-staging.sweetassist.com/v1/public/transaction</p>
+                <p>?response_type=data</p>
+                <p>&batch_size=10</p>
+                <p> &batch_number=1</p>
+            </p>
+            
+            <h4> Parameters:</h4>
+            <p> 
+                <p>batch_size - Number of transactions in a single page.</p>
+                <p>batch_number – Which page data wants to load.</p>
+                <p>response_type – Specifies that an authorization code should be returned.</p>
+                <p>"Authorization: Bearer YOUR_ACCESS_TOKEN"</p>
+                <p>"Content-Type: application/json"</p>
+            </p>
+        </div>
+       <div class="overflow-hidden content-section" id="listSingleTxn">
+        <h3>Get single transaction details.</h3>
+        <p>
+            To retrieve details of a specific transaction from the Sweet Assist API, you need to make an authenticated GET request to the transaction details endpoint using the transaction ID.    
+        </p>
+        <h4> Request Example:</h4>
+        <p> 
+            <p class="sub_head">GET https://api-staging.sweetassist.com/v1/public/transaction/detail</p>
+            <p>?response_type=data</p>
+            <p>&transaction_id={{transaction_id}}</p>
+        </p>
+        
+        <h4> Parameters:</h4>
+        <p> 
+            <p>response_type – Specifies that an authorization code should be returned.</p>
+            <p>transaction_id=The Id of the single transaction.</p>
+            <p>"Authorization: Bearer YOUR_ACCESS_TOKEN"</p>
+            <p>"Content-Type: application/json"</p>
+        </p>
+       </div>
+    </div>
+    <hr>
      <div class="content-code"></div>
  </div>
  <!-- Github Corner Ribbon - to remove (Ribbon created with : http://tholman.com/github-corners/ )-->
- <a href="https://github.com/ticlekiwi/API-Documentation-HTML-Template" class="github-corner" aria-label="View source on Github" title="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="z-index:99999; fill:#70B7FD; color:#fff; position: fixed; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}@media only screen and (max-width:680px){ .github-corner > svg { right: auto!important; left: 0!important; transform: rotate(270deg)!important;}}</style>
+ <a href="https://anoopmkmk.github.io/sa.github.io/" class="github-corner" aria-label="View source on Github" title="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="z-index:99999; fill:#70B7FD; color:#fff; position: fixed; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}@media only screen and (max-width:680px){ .github-corner > svg { right: auto!important; left: 0!important; transform: rotate(270deg)!important;}}</style>
  <!-- END Github Corner Ribbon - to remove -->
  <script src="js/script.js"></script>
  <!-- <script>

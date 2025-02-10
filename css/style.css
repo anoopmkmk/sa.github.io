@@ -74,6 +74,9 @@ p, .content ul, .content ol{
     line-height: 1.6;
     font-weight: 300;
 }
+.sub_head{
+    width: 100%;
+}
 .content h1:first-child{
     font-size: 1.333em;
     color: #034c8f;
